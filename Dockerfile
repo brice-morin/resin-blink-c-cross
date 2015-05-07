@@ -4,4 +4,4 @@ COPY . /app
 WORKDIR /app
 
 # Start blink app
-CMD ["./Blink"]
+CMD ["sudo ./Blink"]
