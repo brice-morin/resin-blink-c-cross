@@ -1,4 +1,6 @@
 FROM resin/rpi-raspbian:latest
+# Open-WRT image
+# FROM abresas/openwrt-arm
 
 COPY . /app
 WORKDIR /app
